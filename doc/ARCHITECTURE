@@ -36,7 +36,7 @@
 (6) The hosed daemon loads the keying and remap information for the
     aspects from the maru.keymap file. The keying information is encrypted
     with a passphrase for now.
-(7) The hosed daemon reands and writes encrypted blocks from/to the extent,
+(7) The hosed daemon reads and writes encrypted blocks from/to the extent,
     a large file or partion which acts as the final backing store
 (8) For creating a keymap file, aspect metadata or wiping the extent,
     hose accesses maru.keymap and maru.extent directly. This is also employed
